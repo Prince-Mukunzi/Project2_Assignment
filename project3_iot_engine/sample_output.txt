@@ -1,0 +1,405 @@
+Student ID: 101
+Project: Dynamic IoT Event Monitoring and Callback Engine
+Custom Callback: Sensor Drift Detector
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 2
+
+--- Registered Devices ---
+ID    Name                     Type                      Reading      Status
+1     Boiler Room Temp         Temperature sensor        none yet     Normal
+2     Server Rack Temp         Temperature sensor        none yet     Normal
+3     Water Line Pressure      Pressure sensor           none yet     Normal
+4     Gas Tank Pressure        Pressure sensor           none yet     Normal
+5     Drone Battery            Battery voltage monitor   none yet     Normal
+6     Sensor Node Battery      Battery voltage monitor   none yet     Normal
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 1
+
+--- Register Device ---
+Enter Device ID: 1
+Error: that ID already exists.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 1
+
+--- Register Device ---
+Enter Device ID: 7
+Enter Device Name: Pump Temp
+1. Temperature sensor
+2. Pressure sensor
+3. Battery voltage monitor
+Choose device type: 1
+Device registered successfully!
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 2
+
+--- Registered Devices ---
+ID    Name                     Type                      Reading      Status
+1     Boiler Room Temp         Temperature sensor        none yet     Normal
+2     Server Rack Temp         Temperature sensor        none yet     Normal
+3     Water Line Pressure      Pressure sensor           none yet     Normal
+4     Gas Tank Pressure        Pressure sensor           none yet     Normal
+5     Drone Battery            Battery voltage monitor   none yet     Normal
+6     Sensor Node Battery      Battery voltage monitor   none yet     Normal
+7     Pump Temp                Temperature sensor        none yet     Normal
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 4
+
+--- Generate Readings ---
+Device 1 (Boiler Room Temp) generated 33.68 C
+Device 2 (Server Rack Temp) generated 25.44 C
+Device 3 (Water Line Pressure) generated 951 hPa
+Device 4 (Gas Tank Pressure) generated 961 hPa
+Device 5 (Drone Battery) generated 3.66 V
+Device 6 (Sensor Node Battery) generated 3.47 V
+Device 7 (Pump Temp) generated 28.32 C
+Use option 5 to process these readings.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 5
+
+--- Process Readings ---
+ID   Name                   Type                      Value        Result
+1    Boiler Room Temp       Temperature sensor        33.68 C      Normal
+2    Server Rack Temp       Temperature sensor        25.44 C      Normal
+3    Water Line Pressure    Pressure sensor           951 hPa      ALERT [pressure_monitor] Pressure below the safe range
+4    Gas Tank Pressure      Pressure sensor           961 hPa      Normal
+5    Drone Battery          Battery voltage monitor   3.66 V       Normal
+6    Sensor Node Battery    Battery voltage monitor   3.47 V       Normal
+7    Pump Temp              Temperature sensor        28.32 C      Normal
+7 reading(s) processed.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 4
+
+--- Generate Readings ---
+Device 1 (Boiler Room Temp) generated 24.09 C
+Device 2 (Server Rack Temp) generated 17.59 C
+Device 3 (Water Line Pressure) generated 1052 hPa
+Device 4 (Gas Tank Pressure) generated 976 hPa
+Device 5 (Drone Battery) generated 3.06 V
+Device 6 (Sensor Node Battery) generated 3.62 V
+Device 7 (Pump Temp) generated 41.71 C
+Use option 5 to process these readings.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 5
+
+--- Process Readings ---
+ID   Name                   Type                      Value        Result
+1    Boiler Room Temp       Temperature sensor        24.09 C      Normal
+2    Server Rack Temp       Temperature sensor        17.59 C      Normal
+3    Water Line Pressure    Pressure sensor           1052 hPa     ALERT [pressure_monitor] Pressure above the safe range; [sensor_drift_monitor] Reading changed by 101.0 hPa since the last reading
+4    Gas Tank Pressure      Pressure sensor           976 hPa      Normal
+5    Drone Battery          Battery voltage monitor   3.06 V       ALERT [battery_monitor] Battery voltage below the safe range
+6    Sensor Node Battery    Battery voltage monitor   3.62 V       Normal
+7    Pump Temp              Temperature sensor        41.71 C      ALERT [temperature_monitor] Temperature above the safe range
+7 reading(s) processed.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 4
+
+--- Generate Readings ---
+Device 1 (Boiler Room Temp) generated 24.03 C
+Device 2 (Server Rack Temp) generated 18.59 C
+Device 3 (Water Line Pressure) generated 1040 hPa
+Device 4 (Gas Tank Pressure) generated 959 hPa
+Device 5 (Drone Battery) generated 3.81 V
+Device 6 (Sensor Node Battery) generated 2.91 V
+Device 7 (Pump Temp) generated 7.11 C
+Use option 5 to process these readings.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 5
+
+--- Process Readings ---
+ID   Name                   Type                      Value        Result
+1    Boiler Room Temp       Temperature sensor        24.03 C      Normal
+2    Server Rack Temp       Temperature sensor        18.59 C      Normal
+3    Water Line Pressure    Pressure sensor           1040 hPa     Normal
+4    Gas Tank Pressure      Pressure sensor           959 hPa      ALERT [pressure_monitor] Pressure below the safe range
+5    Drone Battery          Battery voltage monitor   3.81 V       Normal
+6    Sensor Node Battery    Battery voltage monitor   2.91 V       ALERT [battery_monitor] Battery voltage below the safe range
+7    Pump Temp              Temperature sensor        7.11 C       ALERT [temperature_monitor] Temperature below the safe range; [sensor_drift_monitor] Reading changed by 34.6 C since the last reading
+7 reading(s) processed.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 6
+
+--- Detected Alerts ---
+Alert 1
+  Device:   3 (Water Line Pressure)
+  Reading:  951 hPa
+  Expected: 960.0 to 1040.0 hPa
+  Reason:   Pressure below the safe range
+  Callback: pressure_monitor
+Alert 2
+  Device:   3 (Water Line Pressure)
+  Reading:  1052 hPa
+  Expected: 960.0 to 1040.0 hPa
+  Reason:   Pressure above the safe range
+  Callback: pressure_monitor
+Alert 3
+  Device:   3 (Water Line Pressure)
+  Reading:  1052 hPa
+  Expected: change of at most 60.0 hPa
+  Reason:   Reading changed by 101.0 hPa since the last reading
+  Callback: sensor_drift_monitor
+Alert 4
+  Device:   5 (Drone Battery)
+  Reading:  3.06 V
+  Expected: 3.2 to 4.2 V
+  Reason:   Battery voltage below the safe range
+  Callback: battery_monitor
+Alert 5
+  Device:   7 (Pump Temp)
+  Reading:  41.71 C
+  Expected: 10.0 to 40.0 C
+  Reason:   Temperature above the safe range
+  Callback: temperature_monitor
+Alert 6
+  Device:   4 (Gas Tank Pressure)
+  Reading:  959 hPa
+  Expected: 960.0 to 1040.0 hPa
+  Reason:   Pressure below the safe range
+  Callback: pressure_monitor
+Alert 7
+  Device:   6 (Sensor Node Battery)
+  Reading:  2.91 V
+  Expected: 3.2 to 4.2 V
+  Reason:   Battery voltage below the safe range
+  Callback: battery_monitor
+Alert 8
+  Device:   7 (Pump Temp)
+  Reading:  7.11 C
+  Expected: 10.0 to 40.0 C
+  Reason:   Temperature below the safe range
+  Callback: temperature_monitor
+Alert 9
+  Device:   7 (Pump Temp)
+  Reading:  7.11 C
+  Expected: change of at most 20.0 C
+  Reason:   Reading changed by 34.6 C since the last reading
+  Callback: sensor_drift_monitor
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 3
+
+--- Remove Device ---
+Enter Device ID to remove: 2
+Device removed.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 3
+
+--- Remove Device ---
+Enter Device ID to remove: 99
+No device with that ID.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 2
+
+--- Registered Devices ---
+ID    Name                     Type                      Reading      Status
+1     Boiler Room Temp         Temperature sensor        24.03 C      Normal
+3     Water Line Pressure      Pressure sensor           1040 hPa     Normal
+4     Gas Tank Pressure        Pressure sensor           959 hPa      ALERT
+5     Drone Battery            Battery voltage monitor   3.81 V       Normal
+6     Sensor Node Battery      Battery voltage monitor   2.91 V       ALERT
+7     Pump Temp                Temperature sensor        7.11 C       ALERT
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 4
+
+--- Generate Readings ---
+Device 1 (Boiler Room Temp) generated 9.01 C
+Device 3 (Water Line Pressure) generated 1014 hPa
+Device 4 (Gas Tank Pressure) generated 1043 hPa
+Device 5 (Drone Battery) generated 3.74 V
+Device 6 (Sensor Node Battery) generated 3.52 V
+Device 7 (Pump Temp) generated 12.85 C
+Use option 5 to process these readings.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 5
+
+--- Process Readings ---
+ID   Name                   Type                      Value        Result
+1    Boiler Room Temp       Temperature sensor        9.01 C       ALERT [temperature_monitor] Temperature below the safe range
+3    Water Line Pressure    Pressure sensor           1014 hPa     Normal
+4    Gas Tank Pressure      Pressure sensor           1043 hPa     ALERT [pressure_monitor] Pressure above the safe range; [sensor_drift_monitor] Reading changed by 84.0 hPa since the last reading
+5    Drone Battery          Battery voltage monitor   3.74 V       Normal
+6    Sensor Node Battery    Battery voltage monitor   3.52 V       Normal
+7    Pump Temp              Temperature sensor        12.85 C      Normal
+6 reading(s) processed.
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 7
+
+--- Monitoring Summary ---
+Registered devices: 6
+Readings processed: 27
+Normal readings:    18
+Abnormal readings:  9
+
+Alerts per device type:
+  Temperature sensor        4
+  Pressure sensor           6
+  Battery voltage monitor   2
+
+Custom callback (sensor_drift_monitor):
+  Drift checks done:  20
+  Drift alerts:       3
+  Biggest drift:      34.6 C on Pump Temp (limit 20.0)
+
+=== Menu ===
+1. Register a new device
+2. Display all devices
+3. Remove a device
+4. Generate simulated readings
+5. Process readings through callbacks
+6. Display detected alerts
+7. Monitoring summary
+8. Exit
+Choose an option: 8
+Goodbye!
