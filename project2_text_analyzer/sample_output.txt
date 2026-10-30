@@ -1,0 +1,815 @@
+Student ID: 101
+Project: Dynamic Text Mining and Linguistic Pattern Analyzer
+Source: The Gettysburg Address by Abraham Lincoln (Gettysburg, Pennsylvania, 19 November 1863)
+Custom Analysis: Lexical Diversity Score
+
+Loaded 1473 characters, 271 words (138 distinct).
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 3
+
+--- Count Words ---
+Total words: 271
+Distinct words: 138
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 4
+
+--- Longest Word ---
+Longest word: battle-field
+Length: 12 characters
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 5
+
+--- Most Frequent Word ---
+Most frequent word: that
+Appears 13 times
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 6
+
+--- Word Statistics ---
+No.   Word                                     Count
+1     four                                     1
+2     score                                    1
+3     and                                      6
+4     seven                                    1
+5     years                                    1
+6     ago                                      1
+7     our                                      2
+8     fathers                                  1
+9     brought                                  1
+10    forth                                    1
+11    on                                       2
+12    this                                     4
+13    continent                                1
+14    a                                        7
+15    new                                      2
+16    nation                                   5
+17    conceived                                2
+18    in                                       4
+19    liberty                                  1
+20    dedicated                                4
+21    to                                       8
+22    the                                      11
+23    proposition                              1
+24    that                                     13
+25    all                                      1
+26    men                                      2
+27    are                                      3
+28    created                                  1
+29    equal                                    1
+30    now                                      1
+31    we                                       10
+32    engaged                                  1
+33    great                                    3
+34    civil                                    1
+35    war                                      2
+36    testing                                  1
+37    whether                                  1
+38    or                                       2
+39    any                                      1
+40    so                                       3
+41    can                                      5
+42    long                                     2
+43    endure                                   1
+44    met                                      1
+45    battle-field                             1
+46    of                                       5
+47    have                                     5
+48    come                                     1
+49    dedicate                                 2
+50    portion                                  1
+51    field                                    1
+52    as                                       1
+53    final                                    1
+54    resting                                  1
+55    place                                    1
+56    for                                      5
+57    those                                    1
+58    who                                      3
+59    here                                     8
+60    gave                                     2
+61    their                                    1
+62    lives                                    1
+63    might                                    1
+64    live                                     1
+65    it                                       5
+66    is                                       3
+67    altogether                               1
+68    fitting                                  1
+69    proper                                   1
+70    should                                   1
+71    do                                       1
+72    but                                      2
+73    larger                                   1
+74    sense                                    1
+75    not                                      5
+76    consecrate                               1
+77    hallow                                   1
+78    ground                                   1
+79    brave                                    1
+80    living                                   2
+81    dead                                     3
+82    struggled                                1
+83    consecrated                              1
+84    far                                      2
+85    above                                    1
+86    poor                                     1
+87    power                                    1
+88    add                                      1
+89    detract                                  1
+90    world                                    1
+91    will                                     1
+92    little                                   1
+93    note                                     1
+94    nor                                      1
+95    remember                                 1
+96    what                                     2
+97    say                                      1
+98    never                                    1
+99    forget                                   1
+100   they                                     3
+101   did                                      1
+102   us                                       3
+103   rather                                   2
+104   be                                       2
+105   unfinished                               1
+106   work                                     1
+107   which                                    2
+108   fought                                   1
+109   thus                                     1
+110   nobly                                    1
+111   advanced                                 1
+112   task                                     1
+113   remaining                                1
+114   before                                   1
+115   from                                     2
+116   these                                    2
+117   honored                                  1
+118   take                                     1
+119   increased                                1
+120   devotion                                 2
+121   cause                                    1
+122   last                                     1
+123   full                                     1
+124   measure                                  1
+125   highly                                   1
+126   resolve                                  1
+127   shall                                    3
+128   died                                     1
+129   vain                                     1
+130   under                                    1
+131   god                                      1
+132   birth                                    1
+133   freedom                                  1
+134   government                               1
+135   people                                   3
+136   by                                       1
+137   perish                                   1
+138   earth                                    1
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 7
+
+--- Sort Word Statistics ---
+1. Alphabetically (A-Z)
+2. By frequency (highest first)
+Choose: 1
+Words sorted.
+
+--- Word Statistics ---
+No.   Word                                     Count
+1     a                                        7
+2     above                                    1
+3     add                                      1
+4     advanced                                 1
+5     ago                                      1
+6     all                                      1
+7     altogether                               1
+8     and                                      6
+9     any                                      1
+10    are                                      3
+11    as                                       1
+12    battle-field                             1
+13    be                                       2
+14    before                                   1
+15    birth                                    1
+16    brave                                    1
+17    brought                                  1
+18    but                                      2
+19    by                                       1
+20    can                                      5
+21    cause                                    1
+22    civil                                    1
+23    come                                     1
+24    conceived                                2
+25    consecrate                               1
+26    consecrated                              1
+27    continent                                1
+28    created                                  1
+29    dead                                     3
+30    dedicate                                 2
+31    dedicated                                4
+32    detract                                  1
+33    devotion                                 2
+34    did                                      1
+35    died                                     1
+36    do                                       1
+37    earth                                    1
+38    endure                                   1
+39    engaged                                  1
+40    equal                                    1
+41    far                                      2
+42    fathers                                  1
+43    field                                    1
+44    final                                    1
+45    fitting                                  1
+46    for                                      5
+47    forget                                   1
+48    forth                                    1
+49    fought                                   1
+50    four                                     1
+51    freedom                                  1
+52    from                                     2
+53    full                                     1
+54    gave                                     2
+55    god                                      1
+56    government                               1
+57    great                                    3
+58    ground                                   1
+59    hallow                                   1
+60    have                                     5
+61    here                                     8
+62    highly                                   1
+63    honored                                  1
+64    in                                       4
+65    increased                                1
+66    is                                       3
+67    it                                       5
+68    larger                                   1
+69    last                                     1
+70    liberty                                  1
+71    little                                   1
+72    live                                     1
+73    lives                                    1
+74    living                                   2
+75    long                                     2
+76    measure                                  1
+77    men                                      2
+78    met                                      1
+79    might                                    1
+80    nation                                   5
+81    never                                    1
+82    new                                      2
+83    nobly                                    1
+84    nor                                      1
+85    not                                      5
+86    note                                     1
+87    now                                      1
+88    of                                       5
+89    on                                       2
+90    or                                       2
+91    our                                      2
+92    people                                   3
+93    perish                                   1
+94    place                                    1
+95    poor                                     1
+96    portion                                  1
+97    power                                    1
+98    proper                                   1
+99    proposition                              1
+100   rather                                   2
+101   remaining                                1
+102   remember                                 1
+103   resolve                                  1
+104   resting                                  1
+105   say                                      1
+106   score                                    1
+107   sense                                    1
+108   seven                                    1
+109   shall                                    3
+110   should                                   1
+111   so                                       3
+112   struggled                                1
+113   take                                     1
+114   task                                     1
+115   testing                                  1
+116   that                                     13
+117   the                                      11
+118   their                                    1
+119   these                                    2
+120   they                                     3
+121   this                                     4
+122   those                                    1
+123   thus                                     1
+124   to                                       8
+125   under                                    1
+126   unfinished                               1
+127   us                                       3
+128   vain                                     1
+129   war                                      2
+130   we                                       10
+131   what                                     2
+132   whether                                  1
+133   which                                    2
+134   who                                      3
+135   will                                     1
+136   work                                     1
+137   world                                    1
+138   years                                    1
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 7
+
+--- Sort Word Statistics ---
+1. Alphabetically (A-Z)
+2. By frequency (highest first)
+Choose: 2
+Words sorted.
+
+--- Word Statistics ---
+No.   Word                                     Count
+1     that                                     13
+2     the                                      11
+3     we                                       10
+4     here                                     8
+5     to                                       8
+6     a                                        7
+7     and                                      6
+8     can                                      5
+9     for                                      5
+10    have                                     5
+11    it                                       5
+12    nation                                   5
+13    not                                      5
+14    of                                       5
+15    dedicated                                4
+16    in                                       4
+17    this                                     4
+18    are                                      3
+19    dead                                     3
+20    great                                    3
+21    is                                       3
+22    people                                   3
+23    shall                                    3
+24    so                                       3
+25    they                                     3
+26    us                                       3
+27    who                                      3
+28    be                                       2
+29    but                                      2
+30    conceived                                2
+31    dedicate                                 2
+32    devotion                                 2
+33    far                                      2
+34    from                                     2
+35    gave                                     2
+36    living                                   2
+37    long                                     2
+38    men                                      2
+39    new                                      2
+40    on                                       2
+41    or                                       2
+42    our                                      2
+43    rather                                   2
+44    these                                    2
+45    war                                      2
+46    what                                     2
+47    which                                    2
+48    above                                    1
+49    add                                      1
+50    advanced                                 1
+51    ago                                      1
+52    all                                      1
+53    altogether                               1
+54    any                                      1
+55    as                                       1
+56    battle-field                             1
+57    before                                   1
+58    birth                                    1
+59    brave                                    1
+60    brought                                  1
+61    by                                       1
+62    cause                                    1
+63    civil                                    1
+64    come                                     1
+65    consecrate                               1
+66    consecrated                              1
+67    continent                                1
+68    created                                  1
+69    detract                                  1
+70    did                                      1
+71    died                                     1
+72    do                                       1
+73    earth                                    1
+74    endure                                   1
+75    engaged                                  1
+76    equal                                    1
+77    fathers                                  1
+78    field                                    1
+79    final                                    1
+80    fitting                                  1
+81    forget                                   1
+82    forth                                    1
+83    fought                                   1
+84    four                                     1
+85    freedom                                  1
+86    full                                     1
+87    god                                      1
+88    government                               1
+89    ground                                   1
+90    hallow                                   1
+91    highly                                   1
+92    honored                                  1
+93    increased                                1
+94    larger                                   1
+95    last                                     1
+96    liberty                                  1
+97    little                                   1
+98    live                                     1
+99    lives                                    1
+100   measure                                  1
+101   met                                      1
+102   might                                    1
+103   never                                    1
+104   nobly                                    1
+105   nor                                      1
+106   note                                     1
+107   now                                      1
+108   perish                                   1
+109   place                                    1
+110   poor                                     1
+111   portion                                  1
+112   power                                    1
+113   proper                                   1
+114   proposition                              1
+115   remaining                                1
+116   remember                                 1
+117   resolve                                  1
+118   resting                                  1
+119   say                                      1
+120   score                                    1
+121   sense                                    1
+122   seven                                    1
+123   should                                   1
+124   struggled                                1
+125   take                                     1
+126   task                                     1
+127   testing                                  1
+128   their                                    1
+129   those                                    1
+130   thus                                     1
+131   under                                    1
+132   unfinished                               1
+133   vain                                     1
+134   whether                                  1
+135   will                                     1
+136   work                                     1
+137   world                                    1
+138   years                                    1
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 8
+
+--- Search Word ---
+Enter a word: that
+"that" appears 13 time(s).
+Entry address: 0x12380a800
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 8
+
+--- Search Word ---
+Enter a word: freedom
+"freedom" appears 1 time(s).
+Entry address: 0x12380b670
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 9
+
+--- Text Summary ---
+Source: The Gettysburg Address by Abraham Lincoln (Gettysburg, Pennsylvania, 19 November 1863)
+Total words: 271
+Distinct words: 138
+Average word length: 4.24
+Longest word: battle-field (12 characters)
+Most frequent word: that (13 times)
+Lexical Diversity Score: 0.509 - Moderate
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 10
+
+--- Custom Analysis: Lexical Diversity Score ---
+Purpose: shows how varied the vocabulary of the text is.
+Formula: distinct words / total words
+Low: below 0.40 | Moderate: below 0.60 | High: 0.60 and above
+
+Distinct words: 138
+Total words: 271
+Lexical Diversity Score: 0.509
+Interpretation: Moderate
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 11
+
+--- Memory Inspection ---
+--------------------------
+Text buffer address: 0x12380a200
+  Holds the paragraph (1474 of 1474 bytes used)
+Word statistics array: 0x12380a800
+  Holds 138 wordStat entries (room for 160, 44 bytes each)
+Selected word-stat entry: 0x12380a800
+  Entry for "that", number 1 in the array (array address + 0 bytes)
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 2
+
+--- Enter Paragraph ---
+Paste your paragraph, then press Enter on an empty line:
+Don't stop -- well-known, WELL-KNOWN!   word,  word. Word; (word)
+He said:  "it's fine"
+Supercalifragilisticexpialidocious_pneumonoultramicroscopicsilicovolcanoconiosis and x
+
+(text buffer grew to 128 bytes)
+(text buffer grew to 256 bytes)
+Loaded 175 characters, 16 words (12 distinct).
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 6
+
+--- Word Statistics ---
+No.   Word                                     Count
+1     don't                                    1
+2     stop                                     1
+3     well-known                               2
+4     word                                     4
+5     he                                       1
+6     said                                     1
+7     it's                                     1
+8     fine                                     1
+9     supercalifragilisticexpialidocious       1
+10    pneumonoultramicroscopicsilicovolcanoco  1
+11    and                                      1
+12    x                                        1
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 8
+
+--- Search Word ---
+Enter a word: word
+"word" appears 4 time(s).
+Entry address: 0x12380a884
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 3
+
+--- Count Words ---
+Total words: 16
+Distinct words: 12
+Words cut to 39 characters: 1
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 9
+
+--- Text Summary ---
+Source: Paragraph entered by user
+Total words: 16
+Distinct words: 12
+Average word length: 8.50
+Longest word: pneumonoultramicroscopicsilicovolcanoco (39 characters)
+Most frequent word: word (4 times)
+Lexical Diversity Score: 0.750 - High (varied vocabulary)
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 11
+
+--- Memory Inspection ---
+--------------------------
+Text buffer address: 0x123704120
+  Holds the paragraph (176 of 256 bytes used)
+Word statistics array: 0x12380a800
+  Holds 12 wordStat entries (room for 160, 44 bytes each)
+Selected word-stat entry: 0x12380a884
+  Entry for "word", number 4 in the array (array address + 132 bytes)
+
+=== Menu ===
+1. Load default paragraph
+2. Enter or paste a paragraph
+3. Count words
+4. Longest word
+5. Most frequent word
+6. Display word statistics
+7. Sort word statistics
+8. Search for a word
+9. Text summary
+10. Custom analysis (Lexical Diversity Score)
+11. Memory inspection
+12. Exit
+Choose an option: 12
+Goodbye!
