@@ -49,7 +49,7 @@ int main(void) {
   load_mock_data(&list);
 
   // Output header
-  printf("Student ID: [your_student_id]\n");
+  printf("Student ID: 101\n");
   printf("Project: Dynamic Academic Performance and Risk Analysis Engine\n");
   printf("Custom Analysis: Academic Risk Index\n");
 

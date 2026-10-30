@@ -1,6 +1,6 @@
 # Dynamic Academic Performance and Risk Analysis Engine
 
-**Student ID:** [your_student_id]  
+**Student ID:** 101  
 **Course:** C Programming  
 **Project:** Dynamic Academic Performance and Risk Analysis Engine  
 **Custom Analysis:** Academic Risk Index
